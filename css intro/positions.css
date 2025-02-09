@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+/* positions : sticky, static, absolute , relative and fixed */
+
+.b1 {
+  background-color: orange;
+  position: relative;
+  left: 200px;
+}
+.b2 {
+  background-color: teal;
+  position: relative;
+  /* from left -> to right */
+  left: 100px;
+}
+.b3 {
+  background-color: wheat;
+}
