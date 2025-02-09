@@ -12,14 +12,13 @@
 
 .b1 {
   background-color: orange;
-  position: relative;
-  left: 200px;
 }
 .b2 {
   background-color: teal;
-  position: relative;
-  /* from left -> to right */
-  left: 100px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  opacity: 0.5;
 }
 .b3 {
   background-color: wheat;
