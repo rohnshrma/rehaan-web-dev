@@ -3,6 +3,27 @@
   padding: 0;
 }
 
+.nav {
+  padding: 20px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 4px 10px 0 #ccc;
+  background: linear-gradient(45deg, rgb(119, 119, 216), rgb(138, 138, 196));
+}
+
+.nav a {
+  text-decoration: none;
+
+  color: #fff;
+}
+.nav ul {
+  list-style: none;
+}
+.nav ul li {
+  margin-top: 8px;
+}
 .box {
   width: 100px;
   height: 100px;
@@ -15,10 +36,6 @@
 }
 .b2 {
   background-color: teal;
-  position: fixed;
-  top: 0;
-  right: 0;
-  opacity: 0.5;
 }
 .b3 {
   background-color: wheat;
